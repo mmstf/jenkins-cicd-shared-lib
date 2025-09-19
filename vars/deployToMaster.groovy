@@ -8,7 +8,7 @@ def call() {
     )]) {
             sh '''
                 echo "$DOCKER_PASS" | docker login -u "$DOCKER_USER" --password-stdin
-                docker pull docker.io/mmstf/mainapp:v1.0
+                docker pull docker.io/mmstf/nodemain:v1.0
             '''
 
             sh """
