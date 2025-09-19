@@ -19,6 +19,6 @@ def call() {
                 fi
             """
 
-            sh "docker run -d --name main-app -p 3000:3000 mmstf/mainapp:v1.0"
+            sh "docker run -d --name main-app -p 3000:3000 mmstf/nodemain:v1.0"
         }
 }
